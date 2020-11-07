@@ -1,5 +1,6 @@
 import * as uui from 'uuid';
 import AWS from 'aws-sdk';
+import handler from './libs/handler-lib';
 
 const dynamoDb = new AWS.DynamoDB.DocumentClient();
 

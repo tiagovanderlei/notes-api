@@ -18,6 +18,5 @@ export default function handler(lambda) {
                 "Access-Control-Allow-Credentials": true,
             },
         };
-
     };
 };
